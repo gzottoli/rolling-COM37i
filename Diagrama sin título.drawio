@@ -1,9 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2023-04-03T13:46:27.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.4" etag="NQ9lDCt_EZFtZ-U2QK10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-03T13:59:17.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="QZxrXAONCRwAHwWwn1Uf" version="21.1.4" type="github">
   <diagram name="Página-1" id="8x0feN610L8qpl5tTK6z">
-    <mxGraphModel>
+    <mxGraphModel dx="1195" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DpczOhdKsUNzKpaUWACM-3" value="Realizar la carga del lado de un cuadrado, mostrar por pantalla el perímetro del&lt;br/&gt;mismo (El perímetro de un cuadrado se calcula multiplicando el valor del lado por&lt;br/&gt;cuatro)&lt;br/&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="184" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DpczOhdKsUNzKpaUWACM-6" value="inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DpczOhdKsUNzKpaUWACM-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="DpczOhdKsUNzKpaUWACM-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="120" as="sourcePoint" />
+            <mxPoint x="410" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpczOhdKsUNzKpaUWACM-8" value="lado" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DpczOhdKsUNzKpaUWACM-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DpczOhdKsUNzKpaUWACM-8" target="DpczOhdKsUNzKpaUWACM-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="230" as="sourcePoint" />
+            <mxPoint x="410" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpczOhdKsUNzKpaUWACM-10" value="perimetro = lado * 4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DpczOhdKsUNzKpaUWACM-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DpczOhdKsUNzKpaUWACM-10" target="DpczOhdKsUNzKpaUWACM-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="230" as="sourcePoint" />
+            <mxPoint x="410" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpczOhdKsUNzKpaUWACM-12" value="perimetro" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DpczOhdKsUNzKpaUWACM-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DpczOhdKsUNzKpaUWACM-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="370" as="sourcePoint" />
+            <mxPoint x="410" y="430" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpczOhdKsUNzKpaUWACM-14" value="fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
