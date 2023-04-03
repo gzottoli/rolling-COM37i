@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-04-03T14:02:04.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.4" etag="oFFJNKnrwZQabiC09MW6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-03T14:12:16.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="GBVQ9Nq1vJLbOvQehmd-" version="21.1.4" type="github">
   <diagram name="Página-1" id="jSvM062PUc782TIapKKx">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Gvcg3IFoEU4xkpFQ4q6r-1" value="Escribir un programa en el cual se ingresan cuatro números, calcular e informar la&#xa;suma de los dos primeros y el producto del tercero y el cuarto" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179" y="10" width="470" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Gvcg3IFoEU4xkpFQ4q6r-2" value="inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gvcg3IFoEU4xkpFQ4q6r-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gvcg3IFoEU4xkpFQ4q6r-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="130" as="sourcePoint" />
+            <mxPoint x="410" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gvcg3IFoEU4xkpFQ4q6r-4" value="v1, v2, v3, v4" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gvcg3IFoEU4xkpFQ4q6r-5" value="suma= v1+ v2&lt;br&gt;producto= v3*v4" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Gvcg3IFoEU4xkpFQ4q6r-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="240" as="sourcePoint" />
+            <mxPoint x="410" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gvcg3IFoEU4xkpFQ4q6r-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gvcg3IFoEU4xkpFQ4q6r-5" target="Gvcg3IFoEU4xkpFQ4q6r-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="170" as="sourcePoint" />
+            <mxPoint x="410" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gvcg3IFoEU4xkpFQ4q6r-9" value="suma&lt;br&gt;producto" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gvcg3IFoEU4xkpFQ4q6r-10" value="fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gvcg3IFoEU4xkpFQ4q6r-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.514;exitY=0.863;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gvcg3IFoEU4xkpFQ4q6r-9" target="Gvcg3IFoEU4xkpFQ4q6r-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
